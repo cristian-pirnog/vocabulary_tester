@@ -9,7 +9,7 @@ import random
 
 def loop(words, langs, max_count, random_language: bool = True):
     words = np.array(words)
-    mistakes = []
+    mistakes = set()
     for i, k in enumerate(np.random.choice(len(words), size=max_count, replace=False)):
         idx = random.randint(0, 1) if random_language else 0
         other_idx = abs(idx - 1)
@@ -30,7 +30,7 @@ def loop(words, langs, max_count, random_language: bool = True):
             elif answer.replace(' ', '') == expected.replace(' ', ''):
                 print(f'\tWatch out for extra spaces in the answer')
             else:
-                mistakes.append((word, answer, expected, idx, other_idx))
+                mistakes.add((word, answer, expected, idx, other_idx))
                 print(f'\tWrong! Correct was "{expected}"')
 
     return mistakes
@@ -55,20 +55,25 @@ def run(who):
     base_dir = Path(__file__).parent / who
     words = read_words_file(base_dir / 'words.txt')
     mistakes_file = base_dir / 'mistakes.txt'
+    extra_words = []
     try:
-        # Add previous mistakes three more times
+        # Add previous mistakes one more time
         extra_words = read_words_file(Path(mistakes_file))
-        for i in range(3):
-            words.extend(extra_words)
     except FileNotFoundError as e:
         pass
+
+    for w in extra_words:
+        if w in words:
+            words.append(w)
+        else:
+            print(f'Words from mistakes not found in the list: {w}')
 
     for i, w in enumerate(words):
         if len(w) != 2:
             raise ValueError(f'Error on line {i}: {w}')
 
     langs = ('Fr', 'De')
-    max_count = len(words) if input(f'There are {len(words)} words. Would you like to test all? [y/n] ').lower() == 'y' \
+    max_count = len(words) if input(f'There are {len(words) - len(extra_words)} words. Would you like to test all? [y/n] ').lower() == 'y' \
         else min(100, len(words))
     mistakes = loop(words, [langs] * len(words), max_count)
 
@@ -77,7 +82,7 @@ def run(who):
         print(f"Congratulations!!! You got everything right. Keep it up.")
         return
 
-    perc = int(1. - float(len(mistakes)) / max_count * 100)
+    perc = int((1. - float(len(mistakes)) / max_count) * 100)
     print(f"You got {perc}% right from {max_count} words with {len(mistakes)} mistakes.")
     print(f"Let's test only the words you got wrong?\n")
     idxs = select_tuple(mistakes, 3, 4)

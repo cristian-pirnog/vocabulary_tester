@@ -2,7 +2,7 @@ plusieurs; mehrere
 être en classe de 4E;  In der 8. Klasse sein
 un lycée; ein Gymnasium
 midi; Mittag
-à midi; um 12 uhr Mittags
+à midi; um 12 Uhr Mittags
 un élève; ein Schüler
 une élève; eine Schülerin
 avoir faim; Hunger haben
@@ -57,7 +57,7 @@ quarantième; vierzigste/r
 un texte; ein Text
 un volcan; ein Vulkan
 C'est l'horreur!; Es ist schrecklich!
-écrire qc a qn;  jmnd. etw. schreiben
+écrire qc à qn;  jmnd. etw. schreiben
 j'écris; ich schreibe
 tu écris;  du schreibst
 il écrit; er schreibt
@@ -117,7 +117,7 @@ parler; sprechen
 ne... plus; nicht mehr
 ne... pas; nicht
 ça ne va pas trop; es geht mir nicht so gut
-un mot; (hier) ein Eintrag
+un mot 2; ein Eintrag
 un carnet de correspondance; ein Notizbuch zum Austausch von Informationen zwischen Eltern und Lehrern
 très; sehr
 un soir; ein Abend
