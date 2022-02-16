@@ -49,6 +49,7 @@ def read_words_file(file_name):
             words.append(tuple(map(process_words, line.replace('\n', '').split(';'))))
     return words
 
+
 @click.command()
 @click.argument('who', type=str)
 def run(who):
@@ -73,8 +74,11 @@ def run(who):
             raise ValueError(f'Error on line {i}: {w}')
 
     langs = ('Fr', 'De')
-    max_count = len(words) if input(f'There are {len(words) - len(extra_words)} words. Would you like to test all? [y/n] ').lower() == 'y' \
-        else min(100, len(words))
+    max_count = len(words)
+    if max_count > 100:
+        if input(f'There are {len(words)} words. Would you like to test all? [y/n] ').lower() != 'y':
+            max_count = 100
+
     mistakes = loop(words, [langs] * len(words), max_count)
 
     print("\n\n")
