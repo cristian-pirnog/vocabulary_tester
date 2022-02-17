@@ -29,7 +29,7 @@ vous appelez;ihr ruft an
 ils appellent;sie rufen an
 en bas de;unten
 encore;wieder
-stresser qn;jmnd. stressen
+stresser qn;jmnd stressen
 à cause de qn/qc;wegen einer Person/einer Sache
 une note;eine Note
 être d'accord;einverstanden sein
@@ -92,7 +92,53 @@ hien?;was?
 pourquoi est-ce que...?;warum...?
 quand est-ce que...?;wann...?
 préférer faire qc;etw lieber tun
-vers qn/qc;auf jmnd/etw
+vers qn/qc;auf jmnd/etw zu 
 un banc de touche;eine Ersatzbank
 quelle photo?;welches foto?
 sortir qc de qc;etw herausholen aus
+hier;gestern
+comment est-ce que...?;wie...?
+si;wenn
+tout va bien;alles in Ordnung
+quel blaireau;was für eine Null
+un héros;ein Held
+une héroïne;eine Heldin
+craquer;die Nerven verlieren
+c'est bon;es ist gut
+un réseau;ein Netz
+des réseaux;Netze
+un réseau social;ein soziales Netzwerk
+c'est graave;das ist schlimm
+le harcèlement;das Mobbing
+ça sonne;es klingelt
+parler à qn;mit jmnd sprechen
+Internet (m.);das Internet
+tous;alle
+depuis;seit
+un commentaire;ein Kommentar
+être à côté de ses pompes;durcheinander sein
+c'est le stress;ich habe Stress
+partout;überall
+la participation;die Teilnahme
+dans quinze jours;in vierzehn Tagen
+je m'en occupe;ich kümmere mich darum
+il faut faire qc;man muss etw tun
+un plan;ein Plan
+expliquer qc à qn;jmnd etw erklären
+le silence;die Ruhe
+tout le monde;alle
+un fan;ein Fan (männlich)
+une fan;ein Fan (weiblich)
+être debout;stehen
+un signe;ein Zeichen
+retirer qc;etw ausziehen
+un t-shirt;ein T-Shirt
+tomber;fallen
+c'est fini;es ist vorbei
+le public;das Publikum
+crier;schreien
+allez;los
+gagner (qc);(etw) gewinnen
+une fête;ein Fest
+faire la fête;feiern
+quand même;trotzdem

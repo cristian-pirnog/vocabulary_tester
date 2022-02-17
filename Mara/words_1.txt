@@ -88,7 +88,7 @@ cinq heures vingt-cinq; fünf Uhr fünfundzwanzig
 la fin; das Ende
 une demie-heure; eine halbe Stunde
 demain; morgen
-a demain; bis morgen
+A demain; bis morgen
 parce que; weil
 il est quelle heure?; wie viel Uhr ist es?
 s’il te plaît; bitte (wenn man jemanden duzt)
@@ -141,37 +141,3 @@ nous comprenons; wir verstehen
 vous comprenez; ihr versteht
 ils comprennent; sie verstehen
 plein de; viel
-prendre qc; etw. nehmen
-je prends; ich nehme
-tu prends; du nimmst
-il prend; er nimmt
-nous prenons; wir nehmen
-vous prenez; ihr nehmt
-ils prennent; sie nehmen
-un repas; eine Mahlzeit
-le temps; die Zeit
-avoir le temps; Zeit haben
-une année; ein Jahr
-l'année prochaine; nächstes Jahr
-une interro; eine Klassenarbeit
-le week-end; das Wochenende
-une bêtise; eine Dummheit
-en famille; mit der Familie
-peut-être; vielleicht
-aller chez qn; zu jmnd. gehen
-un après-midi; ein Nachmittag
-apprendre qc; etw. lernen
-j'apprends; ich lerne
-tu apprends; du lernst
-il apprend; er lernt
-nous apprenons; wir lernen
-vous apprenez; ihr lernt
-ils apprennent; sie lernen
-une chose; eine Sache
-avant; vor 
-spas de panique; keine Panik
-Bon,...; Also,...
-préparer qc; etw. vorbereiten
-déjà; schon
-une semaine; eine Woche
-par semaine; pro Woche
