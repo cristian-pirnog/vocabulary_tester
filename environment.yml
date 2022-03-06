@@ -1,0 +1,5 @@
+name: vocabulary-tester
+dependencies:
+  - python=3.9
+  - click
+  - numpy
