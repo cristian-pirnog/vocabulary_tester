@@ -52,7 +52,7 @@ def process_words(words: str):
 def read_words_file(file_name) -> List[Tuple[str, str]]:
     words = []
     try:
-        with file_name.open('r') as fr:
+        with file_name.open('r', encoding='utf-8') as fr:
             for line in fr:
                 words.append(tuple(map(process_words, line.replace('\n', '').split(';'))))
     except FileNotFoundError as e:
