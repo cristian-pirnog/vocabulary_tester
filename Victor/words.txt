@@ -1,28 +1,33 @@
-la famille; die Familie
-un\une enfant; ein Kind
-les parents; die Eltern
-la sœur; die Schwester
-les grand-parents; die Grosseltern
-la tante; die Tante
-un oncle; ein Onkel
-la cousine; die Cousine
-le cousin; der Cousin
-le bébé; das Baby
-la fille; die Tochter
-le fils; der Sohn
-voici; hier ist
-il est; er ist
-Lionel est le frère de Nathalie; Lionel ist der Bruder von Nathalie
-la mère; die Mutter
-le père; der Vater
-le frère; der Bruder
-la grand-mère; die Grossmutter
-le grand-père; der Grossvater
-ils sont; sie sind
-c'est; das ist
-C'est ma famille; Das ist meine Familie
-ce sont; das sind
-Ce sont mes grand-parents; Das sind meine Grosseltern
-qui; wer
-il s'appelle; er heisst
-ils s'appellent; sie heissen
+un ingrédient;eine Zutat
+un ananas;eine ananas
+le raisin vert/bleu;die grüne/blaue Traube
+la fraise; die Erdbeere
+le champignon blanc;der weisse Champignon
+la rondelle de concombre;die Gurkenscheibe
+la carotte;die Karotte
+la poire;die Birne
+la feuille d'ananas;das Ananasblatt
+la tomate cerise; die Kirschtomate
+un peu de persil;ein wenig Petersilie
+le visage;das Gesicht
+une oreille;ein Ohr
+les yeux;die Augen
+les cheveux;die Haare
+la tête;der Kopf
+le nez;die Nase
+la bouche;der Mund
+la rondelle de citron;die Zitronenscheibe
+Pour le nez, je prends une carotte;Für die Nase nehme ich eine Karotte
+C'est quoi;Was ist das
+la banane;die Banane
+les nouilles;die Nudeln
+Pique un raisin;Speisse eine Traube auf
+Fixe le raisin sur la poire;Befestige die Traube an der Birne
+Coupe l'ananas;Schneide die Ananas
+Pose la fraise sur l'assiette;Stelle die Erdbeere auf den Teller
+Prends une poire pour le corps;Nimm eine Birne für den Körper
+Tu coupes. coupe;Du schneidest. schneide
+Vous coupez. coupez;Ihr schneidet. schneidet
+un alphabet;ein Alphabet
+la soupe;die Suppe
+la lettre;der Buchstabe
